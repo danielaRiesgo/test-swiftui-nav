@@ -32,6 +32,14 @@ struct MainView: View {
     }
 }
 
+extension MainView {
+
+    class ViewModel: ObservableObject {
+
+    }
+
+}
+
 struct MainView_Previews: PreviewProvider {
     static var previews: some View {
         MainView()
